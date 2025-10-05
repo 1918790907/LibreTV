@@ -32,7 +32,7 @@ const API_SITES = {
     
     // 最新提供的API源
     lkvod: {
-        api: 'https://api.lkvod.org/api.php/provide/vod/',
+        api: 'https://lkvod.org/api.php/provide/vod/',
         name: 'LK影视资源',
         group: '主流影视',
         isActive: true,
@@ -40,7 +40,7 @@ const API_SITES = {
         priority: 2
     },
     oulevod: {
-        api: 'https://api.oulevod.com/api.php/provide/vod/',
+        api: 'https://oulevod.com/api.php/provide/vod/',
         name: '欧乐影视',
         group: '主流影视',
         isActive: true,
@@ -48,7 +48,7 @@ const API_SITES = {
         priority: 2
     },
     shanyihu: {
-        api: 'https://api.shanyi.hu/api.php/provide/vod/',
+        api: 'https://shanyi.hu/api.php/provide/vod/',
         name: '善艺影视',
         group: '综合资源',
         isActive: true,
@@ -114,7 +114,7 @@ const API_SITES = {
     
     // 其他历史可用源（保留作为备用）
     btysw: {
-        api: 'https://api.btysw.com/api.php/provide/vod/',
+        api: 'https://btysw.com/api.php/provide/vod/',
         name: '北斗影视',
         group: '备用资源',
         isActive: true,
@@ -122,7 +122,7 @@ const API_SITES = {
         priority: 5
     },
     m1905: {
-        api: 'https://api.m1905zy.com/api.php/provide/vod/',
+        api: 'https://m1905zy.com/api.php/provide/vod/',
         name: '1905影视',
         group: '备用资源',
         isActive: true,
