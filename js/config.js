@@ -20,14 +20,106 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
-// API站点配置
+// API站点配置 - 使用提供的实际数据源
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    bfzy: {
+        api: 'https://bfzy.zbqm.top/api.php/provide/vod/',
+        name: '暴风M3U8',
+        group: '4K专线',
+        isActive: true,
+        adult: false
+    },
+    '4kjiexi': {
+        api: 'https://4kjiexi.com/api.php/provide/vod/',
+        name: '4K解析',
+        group: '4K专线',
+        isActive: true,
+        adult: false
+    },
+    lkvod: {
+        api: 'https://api.lkvod.org/api.php/provide/vod/',
+        name: 'LK资源',
+        group: '4K专线',
+        isActive: true,
+        adult: false
+    },
+    '360zy': {
+        api: 'https://360zy.com/api.php/provide/vod/',
+        name: '360资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    ffzy: {
+        api: 'https://ffzyapi.com/api.php/provide/vod/',
+        name: '非凡资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    nmzy: {
+        api: 'https://nmzyapi.com/api.php/provide/vod/',
+        name: '柠檬资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    tkzy: {
+        api: 'https://api.tiankongapi.com/api.php/provide/vod/',
+        name: '天空资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    hwzy: {
+        api: 'https://api.haiwaizy.com/api.php/provide/vod/',
+        name: '海外资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    '88zy': {
+        api: 'https://88zyapi.com/api.php/provide/vod/',
+        name: '88资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    zyzy: {
+        api: 'https://zyzy.com/api.php/provide/vod/',
+        name: '资源资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    jhzy: {
+        api: 'https://jhzyapi.com/api.php/provide/vod/',
+        name: '聚合资源',
+        group: '默认',
+        isActive: true,
+        adult: false
+    },
+    m3u8zy: {
+        api: 'https://m3u8zy.com/api.php/provide/vod/',
+        name: 'M3U8专线',
+        group: 'M3U8',
+        isActive: true,
+        adult: false
+    },
+    dashzy: {
+        api: 'https://dashzy.com/api.php/provide/vod/',
+        name: 'DASH专线',
+        group: 'M3U8',
+        isActive: true,
+        adult: false
+    },
+    cocozy: {
+        api: 'https://cocozy.com/api.php/provide/vod/',
+        name: 'COCO资源',
+        group: '默认',
+        isActive: true,
+        adult: false
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
 // 定义合并方法
@@ -121,3 +213,4 @@ const CUSTOM_API_CONFIG = {
 
 // 隐藏内置黄色采集站API的变量
 const HIDE_BUILTIN_ADULT_APIS = false;
+    
